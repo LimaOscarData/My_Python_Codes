@@ -4,6 +4,7 @@
 def find_perfect_num():
     my_num = int(input("please enter a number, that you want to check whether it's a perfect number or not :"))
     div_nums_total = 0
+    # div_nums_total = sum([i for i in range(1,my_num) if my_num % i == 0])
     for i in range(1, my_num):
         if my_num % i == 0:
             div_nums_total += i
