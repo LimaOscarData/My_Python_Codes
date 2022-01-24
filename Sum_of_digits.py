@@ -19,4 +19,3 @@ sum_of_digits()
 # Please enter only numbers !
 # Please enter a number that you want to sum :-----
 # Please enter only numbers !
-
